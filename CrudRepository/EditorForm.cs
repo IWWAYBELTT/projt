@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace CrudRepository
 {
-    public partial class EditorForm : Form
+    public partial class EditorForm : Form    /*form1 */
     {
        public bool Adding { get; set; } 
 
