@@ -11,7 +11,7 @@ namespace CF.Repo
  
   public    class StudentRepository : Repository<Student>, IStudentRepository
 
-    {
+    { /* daaaa */
         public StudentRepository(CurdDbContext context) : base(context) { }
 
         /*public void ShowResult()
