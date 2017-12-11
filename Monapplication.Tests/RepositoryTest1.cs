@@ -14,7 +14,7 @@ namespace Monapplication.Tests
     [TestFixture]
     public class RepositoryTest1
     {
-        /*test*/
+        /*test 2*/
          
         [Test]
         public void ShouldReturnStudent()
