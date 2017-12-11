@@ -7,13 +7,13 @@ namespace CF.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ba : IMigrationMetadata
+    public sealed partial class mp : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ba));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(mp));
         
         string IMigrationMetadata.Id
         {
-            get { return "201712051644230_ba"; }
+            get { return "201712081452188_mp"; }
         }
         
         string IMigrationMetadata.Source

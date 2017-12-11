@@ -37,6 +37,10 @@
     <Reference Include="CF.Repo">
       <HintPath>..\CF.Repo\bin\Debug\CF.Repo.dll</HintPath>
     </Reference>
+    <Reference Include="CF.service, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\C#\CF.service\bin\Debug\CF.service.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Unity.3.0.1304.1\lib\Net45\Microsoft.Practices.Unity.dll</HintPath>

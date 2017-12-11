@@ -11,6 +11,7 @@ namespace CF.Data
         public CurdDbContext()
             :base("name = CurdConnectionString")
         {
+          
 
         }
 
@@ -32,7 +33,9 @@ namespace CF.Data
             }
             base.OnModelCreating(modelBuilder);
         }
-
+        
+       }
+    
 
         }
-    }
+   

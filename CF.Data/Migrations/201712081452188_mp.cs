@@ -3,7 +3,7 @@ namespace CF.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class ba : DbMigration
+    public partial class mp : DbMigration
     {
         public override void Up()
         {

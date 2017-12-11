@@ -21,16 +21,16 @@ namespace CrudRepository
             IUnityContainer Container = Conteneur.ContainerInit ();
 
             //renvoie ube nouvelle instance de student service//
-              IStudentService std = Container.Resolve<IStudentService>(); 
-            IDepartementService dep = Container.Resolve<IDepartementService>();
+           /*   IStudentService std = Container.Resolve<IStudentService>(); 
+            IDepartementService dep = Container.Resolve<IDepartementService>(); */
            
 
             Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-              Application.Run(new Form1(std,dep)); 
+           /*   Application.Run(new Form1(std,dep)); */
           /* Application.Run(new Form2()); */
 
-             /*  Application.Run(Container.Resolve<Form1>()); */
+               Application.Run(new Form1()); 
 
          /*   Application.Run(Container.Resolve<Form2>()); */
         }

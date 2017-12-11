@@ -27,14 +27,15 @@ namespace CrudRepository
 
         public Form2()
         {
-            container = Conteneur.ContainerInit();
-           _deptService = container.Resolve<IDepartementService>(); 
+           _deptService= Conteneur.container.Resolve<IDepartementService>();
+           /*  container = Conteneur.ContainerInit(); 
+            _deptService = container.Resolve<IDepartementService>();  */
             InitializeComponent();
         }
 
 
         private void InitializeDepartmentList()
-        {
+        { 
             DepartementController departements = new DepartementController(_deptService);
             blDepartements = new SortableBindingList<Departement>  (departements.GetAllDepartements());
             bsDepartements.DataSource = blDepartements;

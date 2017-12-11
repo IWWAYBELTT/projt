@@ -29,15 +29,17 @@ namespace CrudRepository
 
         public Form1()
         {
-           
+           dep = Conteneur.container.Resolve<IDepartementService>(); 
+            std = Conteneur.container.Resolve<IStudentService>();
+            InitializeComponent();
         }
 
-        public Form1(IStudentService std , IDepartementService dep )
+        /*public Form1(IStudentService std , IDepartementService dep )
         {
             this.dep = dep; 
             this.std = std;
-            InitializeComponent();
-        }
+           InitializeComponent();
+         } */
 
        
 
