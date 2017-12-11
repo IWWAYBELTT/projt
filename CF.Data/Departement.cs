@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CF.Data
 {
-  public   class Departement : BaseEntity
+  public   class Departement : BaseEntity /*datareop */
     {
         
             public string Name { get; set; }
