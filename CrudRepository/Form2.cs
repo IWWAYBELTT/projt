@@ -16,7 +16,7 @@ using System.Windows.Forms;
 namespace CrudRepository
 {
     public delegate void RefreshDepartmentListDelegate(); 
-    public partial class Form2 : Form
+    public partial class Form2 : Form /*formmmmm */
     {
         public RefreshDepartmentListDelegate RefreshDepartmentList;
         private SortableBindingList<Departement> blDepartements = new SortableBindingList<Departement>();
