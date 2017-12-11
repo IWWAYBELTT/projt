@@ -14,6 +14,7 @@ namespace Monapplication.Tests
     [TestFixture]
     public class RepositoryTest1
     {
+        /*test 2*/
          
         [Test]
         public void ShouldReturnStudent()
@@ -23,8 +24,6 @@ namespace Monapplication.Tests
             Student student = new Student();
             student = studentRepository.GetById(1);
             Assert.AreEqual(1, student.Id);
-
-
            /* Assert.NotNull( studentRepository.GetAll());*/
         }
 
