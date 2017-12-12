@@ -22,9 +22,9 @@ namespace Monapplication.Tests
             CurdDbContext contexte = new CurdDbContext();
             IStudentRepository studentRepository = new StudentRepository(contexte);
             Student student = new Student();
-            student = studentRepository.GetById(1);
-            Assert.AreEqual(1, student.Id);
-           /* Assert.NotNull( studentRepository.GetAll());*/
+            /*student = studentRepository.GetById(1);
+            Assert.AreEqual(1, student.Id);*/
+           Assert.NotNull( studentRepository.GetAll());
         }
 
 
